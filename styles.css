@@ -1,10 +1,58 @@
 * {
-   box-sizing: border-box;
- }
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+.card-container{
+  margin: 40px;
+  position: relative;
+  width: 25vh;
+  height: 50vh;
+  
+}
+.card{
+  border: 1px solid darkgray;
+  border-radius: 10px;
 
- body {
-   margin: 0;
-   font-family: system-ui, sans-serif;
- }
 
-/* write code here */
+}
+.close{
+  position: absolute;
+  top: -8px;
+  padding-left: 5px;
+  font-size: 2em;
+  color: grey;
+}
+.badge{
+  position: relative;
+}
+.number{
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.badge{
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: red;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+h4{
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  margin: 5px auto;
+  color: grey;
+}
